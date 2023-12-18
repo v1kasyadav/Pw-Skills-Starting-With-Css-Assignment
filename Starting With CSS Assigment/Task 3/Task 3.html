@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./Task 3.css">
+</head>
+<body>
+    <form action="backend.php" method="post">
+    <fieldset class="form">
+        <legend class="legend">Register</legend>
+        <label for="firstname">Firstname:</label>
+        <br>
+        <input class="firstname" type="text" name="firstname" id="firstname" placeholder="Firstname" required>
+        <br>
+        <label  for="lastname">Lastname:</label>
+        <br>
+        <input class="lastname" type="text" name="lastname" id="firstname" placeholder="Lastname" required>
+        <br>
+        <label for="email">Email ID:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="abc@email.com" required>
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <label for="confirm password">Confirm Password</label>
+        <br>
+        <input type="password" name="confirm password" id="confirm password" required>
+        <br>
+        <label for="age">Age</label> <br><input type="number" name="age" id="age" required> <br>
+        
+        <label for="Gender">Gender:</label> 
+        <label for="Male">Male</label><input type="radio" name="Gender" value="Male" id="Gender">
+        <label for="Female">Female</label><input type="radio" name="Gender" value="Female" id="Gender" required> <br>
+        
+        <label for="terms&conditions">I Accept the Terms & conditions.</label> <input type="checkbox" name="terms&conditions" id="terms&conditions"><br>
+        
+        <input class="button" type="submit" value="Sign Up">
+    </fieldset>
+    </form>
+</body>
+</html>

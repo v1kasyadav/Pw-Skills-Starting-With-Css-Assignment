@@ -1,0 +1,32 @@
+
+
+* {
+    
+    margin: 5px;
+}
+
+.firstname {
+    background-color: rgb(155, 247, 247);
+}
+.lastname {
+    background-color: rgb(202, 160, 241);
+}
+
+.button {
+    background-color: black;
+    color: white;
+}
+.legend {
+    background-color: #27374D;
+    color: white;
+    border: 1px black;
+    border-radius: 4px;
+    text-size-adjust: 25px;
+}
+
+.form {
+    background-color: lightskyblue;
+    border: 1px black;
+    border-radius: 4px;
+    width: fit-content;
+}
